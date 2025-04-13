@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <meta charset="utf-8" /> //設定網頁的字元編碼，確保正確顯示中文。
+        <title>登入範例</title>
+    </head>
+    <body>
+        <form method=post action="2.login.php"> //表單送出時，使用Post方法。當使用者按下登入時，會將輸入資料送到2.login.php這個檔案
+            帳號：<input type=text name="id"><br /> //帳號欄位
+            密碼：<input type=password name="pwd"><p></p> //密碼欄位，內容會被遮蔽
+            <input type=submit value="登入"> <input type=reset value="清除"> //送出表單後，會清除所有資料回到預設狀態
+            
+        </form>
+    </body>
+</html>
